@@ -1200,3 +1200,42 @@ li.notification-reported strong, li.notification-disapproved strong {
 .icon.postlove-count {
   color: #fff !important;
 }
+
+/* Spoiler tweaks */
+
+/* Spoiler tweaks */
+
+.content details.spoiler {
+  background-color: #e3e3e3;
+  border-color: #b3b3b3;
+  padding: 4px 8px;
+  margin: 1em 0;
+}
+
+details.spoiler .spoiler-header {
+ background-color: #e3e3e3;
+  padding:  0;
+  border: 0;
+  margin: 4px 0 0 0;
+}
+.content details.spoiler .spoiler-status {
+  padding: 0;
+  margin: 0;
+  background-color: transparent !important;
+}
+
+.content details.spoiler .spoiler-status > .icon {
+  background: #38484c;
+  border: 2px solid #142326;
+  border-top-color: #46595f;
+  border-left-color: #46595f;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 4px #ffffff40;
+  color: #fff;
+  padding: 4px 6px 4px 8px;
+  margin-top: -4px;
+}
+.content .spoiler[open] > .spoiler-header {
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #737373;
+}
