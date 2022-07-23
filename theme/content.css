@@ -162,6 +162,7 @@ dl.row-item dt, dl.row-item dd {
 
 dl.row-item dt a {
 	display: inline;
+	text-decoration: none;
 }
 
 dl a.row-item-link {				/* topic row icon links */

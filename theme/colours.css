@@ -882,12 +882,11 @@ ul.cplist {
 }
 
 .navigation .active-subsection a {
-	background: #F0F0F0;
-	color: #428bca;
+	color: #03a6fa;
 }
 
 .navigation .active-subsection a:hover {
-	color: #428bca;
+	color: #03a6fa;
 }
 
 /* Preferences pane layout
@@ -897,7 +896,7 @@ ul.cplist {
 }
 
 .panel-container .panel {
-	background-color: #F9F9F9;
+	background-color: #FFFFFF;
 }
 
 .cp-main .pm {
@@ -906,7 +905,7 @@ ul.cplist {
 
 /* Friends list */
 .cp-mini {
-	background-color: #EEF5F9;
+	background-color: #FFFFFF;
 }
 
 dl.mini dt {
@@ -922,12 +921,12 @@ dl.mini dt {
 
 /* PM marking colours */
 .pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
-	border-left-color: #BC2A4D;
-	border-right-color: #BC2A4D;
+	border-left-color: red;
+	border-right-color: red;
 }
 
 .pmlist li.pm_marked_colour, .pm_marked_colour {
-	border-color: #FF6600;
+	border-color: orange;
 }
 
 .pmlist li.pm_replied_colour, .pm_replied_colour {
@@ -935,7 +934,7 @@ dl.mini dt {
 }
 
 .pmlist li.pm_friend_colour, .pm_friend_colour {
-	border-color: #5D8FBD;
+	border-color: #03a6fa;
 }
 
 .pmlist li.pm_foe_colour, .pm_foe_colour {
