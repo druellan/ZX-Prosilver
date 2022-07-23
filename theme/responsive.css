@@ -133,6 +133,17 @@
 	.responsive-show-inline { display: inline !important; }
 	.responsive-show-inline-block { display: inline-block !important; }
 
+	#navigation a, .rtl #navigation a {
+		background: #B2C2CF;
+	}
+	.forumbg {
+		box-shadow: none;
+	}
+
+	.forabg {
+		box-shadow: none;
+	}
+
 	/* Content wrappers
 	----------------------------------------*/
 	html {
@@ -141,6 +152,7 @@
 
 	body {
 		padding: 0;
+		background-image: none;
 	}
 
 	.wrap {

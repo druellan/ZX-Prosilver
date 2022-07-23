@@ -3,7 +3,7 @@
 Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
-html, body {
+body {
 	color: #000000;
 	background-color: #e1e1e0;
 	background-image:
@@ -894,26 +894,6 @@ ul.cplist {
 
 .navigation .active-subsection a:hover {
 	color: #428bca;
-}
-
-@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
-{
-	body {
-		background-image: none;
-	}
-	.wrap {
-		background-color: #f9f9f9;
-	}
-	#navigation a, .rtl #navigation a {
-		background: #B2C2CF;
-	}
-	.forumbg {
-		box-shadow: none;
-	}
-
-	.forabg {
-		box-shadow: none;
-	}
 }
 
 /* Preferences pane layout

@@ -22,7 +22,8 @@ html {
 }
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", "Droid Sans", Arial, Helvetica;
+	font-weight: 600;
 	color: #333333;
 	background-color: #ffffff;
 }
