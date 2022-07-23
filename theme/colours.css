@@ -275,19 +275,13 @@ dl.details dd {
 }
 
 .jumpbox-cat-link {
-	background-color: #0076b1;
-	border-top-color: #0076B1;
-	color: #FFFFFF;
-}
-
-.jumpbox-cat-link:hover {
-	background-color: #008edb;
-	border-top-color: #008edb;
+	background-color: #38484c;
+	border-top-color: #38484c;
 	color: #FFFFFF;
 }
 
 .jumpbox-forum-link {
-	background-color: #E1EBF2;
+	background-color: #e3e3e3;
 }
 
 .jumpbox-forum-link:hover {
@@ -295,11 +289,11 @@ dl.details dd {
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #E1EBF2 transparent;
+	border-color: #fff transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #E1EBF2;
+	background-color: #fff;
 }
 
 .jumpbox-sub-link:hover {
