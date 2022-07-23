@@ -87,7 +87,7 @@ a:hover {color: #008edb;}
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: #FFFFFFD0;
+	background-color: #FFFFFF;
 	box-shadow: 0 0 2px #212f32;
 }
 
@@ -136,7 +136,7 @@ a:hover {color: #008edb;}
 }
 
 .bg1 {
-	background-color: #fff;
+	background-color: #f7f7f7;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -144,7 +144,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #fff;
+	background-color: #f7f7f7;
 }
 .bg2.unreadpost,
 .bg1.unreadpost {
@@ -153,11 +153,11 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
-	background-color: #fff;
+	background-color: #f7f7f7;
 }
 
 .bg3	{
-	background-color: #ffffff;
+	background-color: #f7f7f7;
 }
 
 .ucprowbg {
@@ -435,19 +435,19 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #f9f9f9;
-	border-color:#DBDBCE;
-  padding: 4px 8px;
+	background-color: #e3e3e3;
+	border-color:#b3b3b3;
+	padding: 4px 8px;
 }
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#f0f0f0;
+	background-color:#d3d3d3;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #c3c3c3;
 }
 
 /* Code block */
