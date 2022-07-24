@@ -5,13 +5,9 @@ Colours and backgrounds for common.css
 
 body {
 	color: #000000;
-	background-color: #e1e1e0;
+	background-color: #d1d1d1;
 	background-image:
-	url("images/main_background.jpg");
-	background-size: 150%;
-	background-attachment: fixed;
-	background-position: 0 60%;
-	background-attachment: fixed;
+	url("images/background_tile.jpg");
 }
 
 h1 {
