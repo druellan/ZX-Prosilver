@@ -271,6 +271,7 @@ dd.option {
 }
 
 .postbody .content {
+	font-family: "Lucida Grande", "Open Sans", "Droid Sans", Arial, Helvetica;
 	font-size: 1.3em;
 	overflow-x: auto;
 }
