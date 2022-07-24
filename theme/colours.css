@@ -87,7 +87,7 @@ a:hover {color: #008edb;}
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: #FFFFFF;
+	background-color: #fafafa;
 	box-shadow: 0 0 2px #212f32;
 }
 
@@ -121,7 +121,7 @@ a:hover {color: #008edb;}
 }
 
 .panel {
-	background-color: #fff;
+	background-color: #f3f3f3;
 	color: #28313F;
 	border: 0;
 	box-shadow: 0 0 1px #212f32;
@@ -136,7 +136,7 @@ a:hover {color: #008edb;}
 }
 
 .bg1 {
-	background-color: #f7f7f7;
+	background-color: #f3f3f3;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -144,7 +144,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #f7f7f7;
+	background-color: #f3f3f3;
 }
 .bg2.unreadpost,
 .bg1.unreadpost {
@@ -153,11 +153,11 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
-	background-color: #f7f7f7;
+	background-color: #f3f3f3;
 }
 
 .bg3	{
-	background-color: #f7f7f7;
+	background-color: #f3f3f3;
 }
 
 .ucprowbg {
@@ -824,11 +824,11 @@ ul.cplist {
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #ffffff; /* Old browsers */ /* FF3.6+ */
+	background-color: #f3f3f3; /* Old browsers */ /* FF3.6+ */
 	/* background-image: -webkit-linear-gradient(top, #E2F2FF 0%, #ffffff 100%); */
 	/* background-image: linear-gradient(to bottom, #E2F2FF 0%,#ffffff 100%); */ /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F2FF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-	border-color: #ffffff;
+	border-color: #f3f3f3;
 	box-shadow: 0 1px 1px #F2F9FF inset;
 	color: #333333;
 	box-shadow: 0 -1px 1px #818f92;
@@ -1001,6 +1001,7 @@ fieldset.quick-login input.inputbox {
 
 .message-box textarea {
 	color: #333333;
+	background-color: #fafafa;
 }
 
 .message-box textarea.drag-n-drop {
@@ -1014,7 +1015,7 @@ fieldset.quick-login input.inputbox {
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-	background-color: #FFFFFF;
+	background-color: #FAFAFA;
 	border-color: #B4BAC0;
 	color: #333333;
 }
@@ -1187,7 +1188,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 	margin-bottom: 14px;
 	border-radius: 3px;
 	box-shadow: 0 0 1px #000;
-	background: #f9f9f9 !important;
+	background: #f3f3f3 !important;
 	border-top: 3px solid #000;
 	border-image: url(img/zx_cover.png);
 }
