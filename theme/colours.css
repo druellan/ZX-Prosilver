@@ -4,28 +4,27 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 body {
-	color: #000000;
+	color: #000;
 	background-color: #d1d1d1;
 	background-image:
 	url("images/background_tile.jpg");
 }
 
 h1 {
-	color: ##000;
+
 }
 
 h2 {
-	color: #28313F;
+	
 }
 
 h3 {
 	border-bottom-color: #CCCCCC;
-	color: #000000;
 }
 
 hr {
-	border-color: #FFFFFF;
-	border-top-color: #CCCCCC;
+	border-color: transparent;
+	border-top: 1px dotted #737373;
 }
 
 /*
@@ -33,7 +32,7 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #000000; }
+a { color: #000; }
 a:hover {color: #008edb;}
 
 /* Links on gradient backgrounds */
@@ -83,7 +82,7 @@ a:hover {color: #008edb;}
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: #fafafa;
+	background-color: #fcfcfc;
 	box-shadow: 0 0 2px #212f32;
 }
 

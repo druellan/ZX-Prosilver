@@ -226,15 +226,18 @@ fieldset.forum-selection2 {
 fieldset.submit-buttons {
 	text-align: center;
 	vertical-align: middle;
-	margin: 5px 0;
+	margin: 2px 0;
 }
 
 fieldset.submit-buttons input {
 	vertical-align: middle;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 fieldset.submit-buttons .button2 {
-	margin: 0 -.01em;
+	margin-left: -.01em;
+	margin-right: -.01em;
 }
 fieldset.submit-buttons .button2[name=save] {
 	margin-right: .4em;
