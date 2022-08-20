@@ -271,8 +271,12 @@ dd.option {
 }
 
 .postbody .content {
-	font-family: "Lucida Grande", "Open Sans", "Droid Sans", Arial, Helvetica;
-	font-size: 1.3em;
+	font-family: "Segoe UI", "Lucida Grande", Roboto, Helvetica, Arial, sans-serif;
+	font-kerning: auto;
+	line-height: 1.35em;
+	font-size: 1.35em;
+	overflow-wrap: break-word;
+	font-weight: 500;
 	overflow-x: auto;
 }
 
@@ -465,11 +469,12 @@ ul.searchresults {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	border: 1px solid transparent;
+	box-shadow: 0px .5px 1px 1px #c7c7c7;
 	font-size: 0.95em;
 	margin: 1em 1px 1em 25px;
 	overflow: hidden;
-	padding: 5px;
+	padding: 12px !important;
+	border-radius: 4px;
 }
 
 blockquote blockquote {
@@ -532,7 +537,7 @@ blockquote .codebox {
 	height: auto;
 	max-height: 200px;
 	padding: 5px 3px;
-	font: 0.9em Monaco, "Andale Mono","Courier New", Courier, monospace;
+	font: 0.9em "Cascadia mono", "Andale Mono","Courier New", Courier, monospace;
 	line-height: 1.3em;
 }
 

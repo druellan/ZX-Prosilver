@@ -94,6 +94,16 @@
 		margin: 0 2px;
 	}
 
+	.pagination li a {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	
+	.pagination li.active span {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
 	p.jumpbox-return {
 		display: none;
 	}
