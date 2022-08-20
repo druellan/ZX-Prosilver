@@ -9,6 +9,8 @@ fieldset {
 }
 
 input {
+	font-family: "Segoe UI", "Lucida Grande", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 500;
 	vertical-align: middle;
 	padding: 0 3px;
 	font-size: 1em;
@@ -35,6 +37,8 @@ select optgroup option {
 }
 
 textarea {
+	font-family: "Segoe UI", "Lucida Grande", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 500;
 	width: 60%;
 	padding: 2px;
 	font-size: 1em;

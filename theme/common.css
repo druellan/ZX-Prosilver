@@ -16,12 +16,12 @@ body {
 
 h1 {
 	/* Forum name */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 	margin-right: 200px;
-	margin-top: 15px;
-	font-weight: bold;
-	font-size: 2em;
-	text-transform: uppercase;
+	margin-top: 22px;
+	font-weight: bolder;
+	font-size: 2.4em;
+	color: #333;
+	letter-spacing: -.05em;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2.solo {
 
 h3 {
 	/* Sub-headers (also used as post headers, but defined later) */
-	font-weight: bold;
+	font-weight: 600;
 	text-transform: uppercase;
 	border-bottom: 1px solid transparent;
 	margin-bottom: 3px;
@@ -189,6 +189,9 @@ a:hover	{ text-decoration: underline; }
 	text-transform: capitalize;
 	text-shadow: 0 0 1px #fff;
 }
+.site-description p {
+	margin-bottom: 0;
+}
 
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
@@ -224,12 +227,12 @@ a:hover	{ text-decoration: underline; }
 
 .post {
 	padding: 15px 15px;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
 	background-repeat: no-repeat;
 	background-position: 100% 0;
 	border-radius: 4px;
 	position: relative;
-	border: 1px solid #C7C3BF;
+	box-shadow: 0 .5px 1px 1px #c7c7c7;
 }
 
 .rowbg {
