@@ -134,10 +134,9 @@ a:hover	{ text-decoration: underline; }
 /* Main blocks
 ---------------------------------------- */
 .wrap {
-	border: 1px solid transparent;
 	border-radius: 4px;
 	margin: 0 auto;
-	max-width: 1152px;
+	max-width: 1200px;
 	min-width: 625px;
 	padding: 15px;
 }

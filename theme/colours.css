@@ -5,9 +5,22 @@ Colours and backgrounds for common.css
 
 body {
 	color: #000;
-	background-color: #333333;
-	background-image:
-	url("images/background_tile_dark.jpg");
+	background-color: #94adb3;
+	background-image: radial-gradient(#373b3f, #94adb3);
+	background-size: 100% 300%;
+}
+body:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	background-image: url(https://spectrumcomputing.co.uk/forums/styles/ZX-prosilver/theme/images/main_background_rainbow.png);
+	height: 200%;
+	width: 100%;
+	background-position: 57% -596px;
+	background-size: 2900px;
+  background-repeat: no-repeat;
+	z-index: -1;
 }
 
 h1 {
@@ -87,12 +100,26 @@ a:hover {color: #008edb;}
 }
 
 .headerbar {
+	position: relative;
 	color: #000;
 	text-transform: uppercase;
-	background: #E6EDEE;
-	background: linear-gradient(to bottom, #A6AAAE, #FCFCFC);
+	background: #000;
 	padding: 15px;
 	margin: -15px -15px 0;
+	border-radius: 0;
+	background-image: url(https://pbs.twimg.com/media/Fa1S3_TX0AANG8G?format=jpg);
+	background-size: 590px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+}
+
+.site-description h1 {
+	color: #fff;
+	text-shadow: 0 2px 1px #000;
+}
+.site-description p {
+	color: #eee;
+	text-shadow: 0 2px 1px #000;
 }
 .forumbg {
 	background: #29282d;
@@ -117,6 +144,9 @@ a:hover {color: #008edb;}
 	/* border: 2px solid #000; */
 	/* border-top-color: #737373; */
 	/* border-left-color: #737373; */
+	/*! background: linear-gradient(to bottom, #C6CACE, #FCFCFC); */
+	padding: 4px 15px;
+	margin: 0 -15px;
 }
 
 .panel {
@@ -168,12 +198,11 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	/*background-image: url("./images/site_logo.png");*/
-	background-image: url(./images/site_logo.svg);
+	background-image: url("https://spectrumcomputing.co.uk/img/logo.svg");
+	/* background-image: url(./images/site_logo.svg); */
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    border-radius: 6px;
+    background-size: 90%;
+    background-position: bottom;
 }
 
 /* Horizontal lists
@@ -1187,7 +1216,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 	margin-bottom: 14px;
 	border-radius: 3px;
 	box-shadow: 0 0 1px #000;
-	background: #f3f3f3 !important;
+	background: #849799 !important;
 	border-top: 3px solid #000;
 	border-image: url(img/zx_cover.png);
 }
