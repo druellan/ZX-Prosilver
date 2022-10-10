@@ -798,7 +798,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 ---------------------------------------- */
 .action-bar {
 	font-size: 11px;
-	margin: 8px 0;
+	margin: 8px 0 12px;
 }
 
 .forabg + .action-bar {
@@ -820,6 +820,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	float: right;
 	text-align: right;
 	width: auto;
+	margin-top: 4px;
 }
 
 .action-bar.bar-bottom .pagination {
