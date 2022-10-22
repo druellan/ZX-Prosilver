@@ -16,10 +16,11 @@ body:before {
 	content: '';
 	background-image: url(https://spectrumcomputing.co.uk/forums/styles/ZX-prosilver/theme/images/main_background_rainbow.png);
 	height: 200%;
+	max-height: 101vh;
 	width: 100%;
 	background-position: 57% -596px;
 	background-size: 2900px;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	z-index: -1;
 }
 
