@@ -811,7 +811,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 }
 
 .action-bar .button-search {
-	margin-right: 0;
+	margin-right: 0px;
 }
 
 /* Pagination

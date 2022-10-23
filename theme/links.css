@@ -7,6 +7,7 @@ a {
 	unicode-bidi: embed;
 	text-decoration-line: underline;
 	text-decoration-style: dotted;
+	text-decoration-thickness: 1px;
 	/* we use links inline more often then not so to address several bugs with
 	IE and some other browsers we render all links as inlineblock by default */
 	display: inline-block;
