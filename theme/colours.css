@@ -416,6 +416,10 @@ li.header dt, li.header dd {
 	padding-right: 12px;
 }
 
+p.author {
+	color: #666666;
+}
+
 /* Content container styles
 ----------------------------------------*/
 .content {
@@ -442,7 +446,7 @@ dl.faq dt {
 
 /* Post signature */
 .signature {
-	border-top-color: #CCCCCC;
+	border-top-color: #737373;
 }
 
 /* Post noticies */

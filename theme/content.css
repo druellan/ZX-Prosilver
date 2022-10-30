@@ -32,7 +32,8 @@ ul.topiclist dt {
 	font-size: 1.1em;
 }
 ul.topiclist dt span {
-	font-size: 1em !important;
+	font-size: 1.1em !important;
+	line-height: 146% !important;
 }
 
 ul.topiclist.missing-column dt {
@@ -267,7 +268,7 @@ dd.option {
 .has-profile .postbody h3 {
 	/* If there is a post-profile, we position the post-buttons differently */
 	float: none !important;
-	margin-right: 180px;
+	margin-right: 275px;
 }
 
 .postbody .content {
@@ -420,7 +421,7 @@ p.author {
 	margin-top: 1.5em;
 	padding-top: 0.2em;
 	font-size: 1.1em;
-	border-top: 1px solid transparent;
+	border-top: 1px dotted #737373;
 	clear: left;
 	line-height: 140%;
 	overflow: hidden;

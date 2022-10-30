@@ -412,8 +412,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 
 .search-box .inputbox {
 	background-image: none;
-	border-right-width: 0;
-	border-radius: 4px 0 0 4px;
+	border-radius: 4px;
 	float: left;
 	height: 28px;
 	padding: 8px;
