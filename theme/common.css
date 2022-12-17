@@ -174,7 +174,7 @@ a:hover	{ text-decoration: underline; }
 	display: inline-block;
 	width: 280px;
 	height: 68px;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 }
 
 /* Site description and logo */
@@ -599,7 +599,7 @@ a.header-avatar span:after {
 }
 
 .breadcrumbs .crumb:before {
-	content: '\2039';
+	content: '\2192';
 	font-weight: bold;
 	padding: 0 0.5em;
 }

@@ -202,7 +202,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	/* background-image: url(./images/site_logo.svg); */
     background-repeat: no-repeat;
     background-size: 90%;
-    background-position: bottom;
+    background-position: bottom left;
 }
 
 /* Horizontal lists
