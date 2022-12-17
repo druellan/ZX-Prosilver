@@ -357,7 +357,7 @@ dl.details dd {
 }
 
 .error {
-	color: #BC2A4D;
+	color: red;
 }
 
 .reported {
@@ -758,19 +758,12 @@ Colours and backgrounds for buttons.css
 
 .pagination li.active span {
 	color: #edf4f6;
-	opacity: .7;
+	opacity: .5;
 	background: #38484c;
 	border: 1px solid #142326;
-	border-top-color: #46595f;
-	border-left-color: #46595f;
-	border-radius: 3px;
-	filter: none;
+	border-bottom-color: #46595f;
+	border-right-color: #46595f;
 	box-shadow: none;
-	-webkit-box-shadow: none;
-	padding: 3px 8px;
-	box-shadow: inset 1px 1px 4px #ffffff40;
-	font-weight: bold;
-	line-height: normal;
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
@@ -876,16 +869,16 @@ Colours and backgrounds for cp.css
 }
 
 .panel-container .panel li.row {
-	border-bottom-color: #B5C1CB;
-	border-top-color: #F9F9F9;
+	border-bottom-color: #000;
+	border-top-color: #000;
 }
 
 ul.cplist {
-	border-top-color: #B5C1CB;
+	border-top-color: transparent;
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
-	color: #000000;
+	color: #778899;
 }
 
 .panel-container table.table1 thead th {
@@ -906,7 +899,7 @@ ul.cplist {
 }
 
 .tabs .tab > a:hover {
-	background: #fff;
+	background: transparent;
 	/* color: #ff0000; */
 }
 
@@ -923,7 +916,7 @@ ul.cplist {
 }
 
 .tabs .activetab > a:hover {
-	color: #000000;
+	color: #fff;
 }
 
 /* Mini tabbed menu used in MCP
@@ -998,7 +991,7 @@ ul.cplist {
 }
 
 dl.mini dt {
-	color: #425067;
+	color: #778899;
 }
 
 /* PM Styles
@@ -1019,7 +1012,7 @@ dl.mini dt {
 }
 
 .pmlist li.pm_replied_colour, .pm_replied_colour {
-	border-color: #A9B8C2;
+	border-color: #778899;
 }
 
 .pmlist li.pm_friend_colour, .pm_friend_colour {
@@ -1027,7 +1020,7 @@ dl.mini dt {
 }
 
 .pmlist li.pm_foe_colour, .pm_foe_colour {
-	border-color: #000000;
+	border-color: #FF00FF;
 }
 
 /* Avatar gallery */
@@ -1049,8 +1042,8 @@ Colours and backgrounds for forms.css
 ----------------------------------------*/
 select {
 	border-color: #778899;
-	background-color: #FFFFFF;
-	color: #000;
+	background-color: #38484c;
+	color: #fff;
 }
 
 label {
@@ -1064,7 +1057,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333;
+	color: #778899;
 }
 
 fieldset.fields1 {
@@ -1073,7 +1066,7 @@ fieldset.fields1 {
 
 /* Hover effects */
 fieldset dl:hover dt label {
-	color: #000000;
+	color: #fff;
 }
 
 fieldset.fields2 dl:hover dt label {
