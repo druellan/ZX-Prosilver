@@ -168,6 +168,14 @@ a:focus, a:active {
 	margin: 0 -15px;
 }
 
+.navbar a i.icon {
+	color: #999999;
+}
+
+.breadcrumbs .crumb::before {
+  color: #999999;
+}
+
 .panel {
 	background-color: #1f2123;
 	color: #778899;
@@ -291,7 +299,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red{
-	color: #BC2A4D;
+	color: #FF0000;
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange{
