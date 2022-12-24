@@ -180,9 +180,12 @@
 		border: 0;
 		box-shadow: none;
 		margin: 0;
-		padding: 0px 0 10px;
+		padding: 10px 0 8px;
 		margin-left: -6px;
 		margin-right: -6px;
+	}
+	.post, .panel:first-child {
+		padding: 0px 0 10px;
 	}
 	.content,
 	.post .postprofile,
@@ -510,9 +513,8 @@
 		border: 0;
 		margin: 0 0 6px 0;
 		overflow: hidden;
-		padding: 8px 6px;
-		background: #fcfcfc;
-		box-shadow: 0 0 3px #00000024;
+		padding: 10px 6px 8px;
+		box-shadow: 0 0 4px #000000ff;
 		
 	}
 
