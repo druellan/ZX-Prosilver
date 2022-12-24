@@ -129,7 +129,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	list-style-type: square;
 }
 
-a:hover	{ text-decoration: underline; }
+a:hover	{ /*text-decoration: underline;*/ }
 
 /* Main blocks
 ---------------------------------------- */
