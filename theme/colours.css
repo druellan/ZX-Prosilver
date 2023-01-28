@@ -1339,8 +1339,8 @@ details.spoiler .spoiler-header {
 
 /* Fix for "tribute", the dopdown/tootip while mentioning a member */
   .tribute-container ul {
-    background: #333;
+    background: #333 !important;
     color: #fafafa; }
   
     .tribute-container li.highlight {
-      background: #38484c; color: #fff; }
+      background: #38484c !important; color: #fff; }
