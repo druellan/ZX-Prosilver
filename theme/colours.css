@@ -369,23 +369,23 @@ dl.details dd {
 }
 
 .reported {
-	background-color: #F7ECEF;
+	background-color: #692323;
 }
 
 li.reported:hover {
-	background-color: #ECD5D8 !important;
+	background-color: #8c2f2f !important;
 }
 .sticky, .announce {
 	/* you can add a background for stickies and announcements*/
 }
 
 div.rules {
-	background-color: #ECD5D8;
+	background-color: #8c2f2f;
 	color: #BC2A4D;
 }
 
 p.post-notice {
-	background-color: #ECD5D8;
+	background-color: #8c2f2f;
 	background-image: none;
 }
 
