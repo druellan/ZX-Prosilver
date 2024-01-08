@@ -381,7 +381,7 @@ li.reported:hover {
 
 div.rules {
 	background-color: #8c2f2f;
-	color: #BC2A4D;
+	color: #FFFFFF;
 }
 
 p.post-notice {
@@ -452,8 +452,10 @@ li.header dt, li.header dd {
 }
 
 .content h2, .panel h2 {
-	color: #115098;
-	border-bottom-color:  #CCCCCC;
+    color: #FFFFFF;
+    border-bottom-color: #000;
+    font-weight: bold;
+    padding-bottom: 12px
 }
 
 dl.faq dt {
@@ -574,16 +576,27 @@ dl.thumbnail dt a:hover img {
 ----------------------------------------*/
 
 fieldset.polls dl {
-	border-top-color: #DCDEE2;
+	border-top-color: transparent;
+	color: #778899;
+}
+
+fieldset.polls dl:nth-child(odd) {
+	background: #191919;
 	color: #778899;
 }
 
 fieldset.polls dl.voted {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 fieldset.polls dd div {
 	color: #FFFFFF;
+}
+
+.pollbar1, .pollbar2, .pollbar3, .pollbar4, .pollbar5 {
+	border-radius: 3px;
+	padding: 2px 6px 2px 6px !important;
+    box-shadow: inset 2px 2px 5px #ffffff40;
 }
 
 .rtl .pollbar1, .rtl .pollbar2, .rtl .pollbar3, .rtl .pollbar4, .rtl .pollbar5 {
@@ -591,53 +604,23 @@ fieldset.polls dd div {
 }
 
 .pollbar1 {
-	background-color: #AA2346;
-	border-bottom-color: #74162C;
-	border-right-color: #74162C;
-}
-
-.rtl .pollbar1 {
-	border-left-color: #74162C;
+	background-color: #AA11AA;
 }
 
 .pollbar2 {
-	background-color: #BE1E4A;
-	border-bottom-color: #8C1C38;
-	border-right-color: #8C1C38;
-}
-
-.rtl .pollbar2 {
-	border-left-color: #8C1C38;
+	background-color: #AA1111;
 }
 
 .pollbar3 {
-	background-color: #D11A4E;
-	border-bottom-color: #AA2346;
-	border-right-color: #AA2346;
-}
-
-.rtl .pollbar3 {
-	border-left-color: #AA2346;
+	background-color: #AA1111;
 }
 
 .pollbar4 {
-	background-color: #E41653;
-	border-bottom-color: #BE1E4A;
-	border-right-color: #BE1E4A;
-}
-
-.rtl .pollbar4 {
-	border-left-color: #BE1E4A;
+	background-color: #AA1111;
 }
 
 .pollbar5 {
-	background-color: #F81157;
-	border-bottom-color: #D11A4E;
-	border-right-color: #D11A4E;
-}
-
-.rtl .pollbar5 {
-	border-left-color: #D11A4E;
+	background-color: #AA1111;
 }
 
 /* Poster profile block
